@@ -950,16 +950,29 @@ nav a:first-child {
     box-sizing: border-box;
   }
   .contatos-box form {
-    padding: 1.2rem 1.5rem 1.5rem 1.5rem;
-  }
-  .contatos-box .field-box {
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 1.2rem 1rem 1.5rem 1rem;
   }
   .contatos-box .btn {
     width: 100%;
-    font-size: 1.1rem;
-    padding: 0.8rem 0;
+    min-width: 0;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .contatos-box .heading {
+    word-break: break-word;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1.2rem;
+  }
+  .contatos-box .field-box input,
+  .contatos-box .field-box textarea {
+    width: 100%;
+    box-sizing: border-box;
   }
   .resume-container {
     display: flex;
