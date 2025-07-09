@@ -703,6 +703,10 @@ section.active {
     color: var(--main-color);
 }
 
+.contato-detail .detail p:nth-child(2) {
+  text-align: justify;
+}
+
 
 .contatos-box form {
     background: var(--second-bg-color);
@@ -713,6 +717,7 @@ section.active {
 
 .contatos-box .heading {
     font-size: 3.5rem;
+    margin-bottom: 1.2rem;
 }
 
 .contatos-box .field-box {
@@ -945,7 +950,7 @@ nav a:first-child {
     box-sizing: border-box;
   }
   .contatos-box form {
-    padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+    padding: 1.2rem 1.5rem 1.5rem 1.5rem;
   }
   .contatos-box .field-box {
     grid-template-columns: 1fr;
