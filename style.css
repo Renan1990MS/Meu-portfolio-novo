@@ -244,6 +244,7 @@ section.home {
   border-radius: 50%;
   filter: brightness(1.07) contrast(1.08);
   transition: filter 0.4s, transform 0.4s cubic-bezier(.4,2,.3,1);
+  object-position: center 20%;
 }
 
 .home-img .img-box:hover .img-item img {
